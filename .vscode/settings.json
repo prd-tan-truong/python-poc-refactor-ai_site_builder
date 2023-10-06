@@ -1,0 +1,14 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    }
+  },
+  "ruff.lint.args": ["--line-length=88"],
+  "black-formatter.args": ["--preview", "--line-length", "88"],
+  "python.testing.pytestArgs": ["tests", "-v"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
